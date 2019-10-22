@@ -34,6 +34,7 @@ title: What you will need
 - LEDs
 - 47 to 330 ohm resistors
 - A buzzer
+- A breadboard
 - Male to Female jumper leads
 - Female to Female jumper leads
 
