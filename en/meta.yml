@@ -7,5 +7,11 @@ copyedit: false
 last_tested: "2019-10-22"
 steps:
   - title: Introduction
-  - title: Step title
+  - title: Lighting an LED
+  - title: Coding an LED using an I/O pin
+  - title: Making noise with buzzers
+  - title: Coding sequences
+  - title: Scratch, sound and lights
+  - title: Scratch games with LEDs and buzzers
+  - title: Think big!
   - title: What next?
