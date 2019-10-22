@@ -1,15 +1,23 @@
+--- no-print ---
+This is the **Scratch 3** project and requires a Raspberry Pi 4. There is also a [similar project for Scratch 1.4](https://projects.raspberrypi.org/en/projects/physical-computing-with-scratch14){:target="_blank"} which can be used with earlier Raspberry Pi models.
+--- /no-print ---
+
+--- print-only ---
+This is the **Scratch 3** project and requires a Raspberry Pi 4. There is also a similar project for Scratch 1.4 which can be used with earlier Raspberry Pi models.
+--- /print-only ---
+
 ## Introduction
 
-Add project description here. What will learners be making?
+In this project you will learn how to wire and control LEDs and buzzers as electronic outputs for a Raspberry Pi 4 using the latest version of Scratch. 
+You will combine Scratch and physical computing to work with each other to add physical world outputs to on-screen Scratch games.
 
 ### What you will make
 
 --- no-print ---
-Add instructions for using the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+<video width="640" height="360" controls>
+<source src="images/alarm.webm" type="video/webm">
+Your browser does not support WebM video, try FireFox or Chrome
+</video>
 --- /no-print ---
 
 --- print-only ---
@@ -22,17 +30,26 @@ title: What you will need
 ---
 ### Hardware
 
-+ Describe hardware here
+- A Raspberry Pi 4
+- LEDs
+- 47 to 330 ohm resistors
+- A buzzer
+- Male to Female jumper leads
+- Female to Female jumper leads
 
 ### Software
 
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+Scratch 3 - if not already installed, open a terminal and type:
+
+```bash
+sudo apt install scratch3
+```
+
+Or go to main **Raspberry Pi menu** > **Preferences** > **Recommended Software**, and check the **Scratch 3** install box.
 
 ### Downloads
 
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
+You can find the [completed project Scratch files here](http://rpf.io/p/en/leds-buzzers-scratch-games-get){:target="_blank"} and the [completed project wiring images here](http://rpf.io/p/en/leds-buzzers-scratch-games-go){:target="_blank"}.
 
 --- /collapse ---
 
