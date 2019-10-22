@@ -39,3 +39,5 @@ Connect your LED and resistor to the breadboard and then to Raspberry Pi as show
 ![Pi, breadboard, LED and resistor](images/ledDirect.png)
 
 --- /task ---
+
+Your LED should now be on. If it is not, check your wiring. The first thing to check is that your LED is the right way round!
