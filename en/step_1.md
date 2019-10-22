@@ -68,8 +68,8 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/leds-buzzers-scratch-games/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
+You can find the [completed project Scratch files here](http://rpf.io/p/en/leds-buzzers-scratch-games-get){:target="_blank"} and the [completed project wiring images here](http://rpf.io/p/en/leds-buzzers-scratch-games-go){:target="_blank"}.
 
 --- /collapse ---
