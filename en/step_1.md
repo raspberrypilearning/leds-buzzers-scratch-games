@@ -1,9 +1,9 @@
 --- no-print ---
-This is the **Scratch 3** project and requires a Raspberry Pi 4. There is also a [similar project for Scratch 1.4](https://projects.raspberrypi.org/en/projects/physical-computing-with-scratch14){:target="_blank"} which can be used with earlier Raspberry Pi models.
+This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a [similar project for Scratch 1.4](https://projects.raspberrypi.org/en/projects/physical-computing-with-scratch14){:target="_blank"} which can be used with earlier Raspberry Pi models.
 --- /no-print ---
 
 --- print-only ---
-This is the **Scratch 3** project and requires a Raspberry Pi 4. There is also a similar project for Scratch 1.4 which can be used with earlier Raspberry Pi models.
+This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a similar project for Scratch 1.4 which can be used with earlier Raspberry Pi models.
 --- /print-only ---
 
 ## Introduction
