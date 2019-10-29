@@ -28,7 +28,15 @@ Connect another LED using the **3.3v** GPIO pin.
 
 If the LED turns on then you know it is working and connected the correct way round, so move the jumper cable from the **3.3v** pin to a numbered GPIO pin.
 
-![LED to 3.3v GPIO pin](images/lightShow_LEDto3.3v.png)
+![LED to GPIO pin 23](images/lightShow_LEDtoGPIO23.png)
+
+--- /task ---
+
+--- task ---
+
+Do the same to add a third LED, and even a fourth if you like.
+
+![Three LEDs](images/lightShow_3LEDs.png)
 
 --- /task ---
 
