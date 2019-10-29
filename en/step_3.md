@@ -93,6 +93,7 @@ repeat (10) times
     wait (1) secs
     turn LED (17 v) [off v] ::extension
     wait (1) secs
+end
 ```
 
 Click the green flag and your LED should flash, turing on and off again ten times.
