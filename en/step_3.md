@@ -52,7 +52,7 @@ when flag clicked
 
 --- task ---
 
-From the Raspberry Pi Simple Electronics pallette, add `turn LED 17 on`{:class="block3operators"}
+From the Raspberry Pi Simple Electronics pallette, add `turn LED 17 on`{:class="block3extension"}
 
 ```blocks3
 when flag clicked
@@ -97,5 +97,11 @@ end
 ```
 
 Click the green flag and your LED should flash, turing on and off again ten times.
+
+--- /task ---
+
+--- task ---
+
+Play around with the 
 
 --- /task ---
