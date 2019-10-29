@@ -8,7 +8,7 @@ last_tested: "2019-10-22"
 steps:
   - title: Introduction
   - title: Lighting an LED
-  - title: Coding an LED using an I/O pin
+  - title: Coding an LED using an GPIO pin
   - title: Making noise with buzzers
   - title: Coding sequences
   - title: Scratch, sound and lights

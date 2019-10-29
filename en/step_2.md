@@ -71,3 +71,5 @@ Lastly, add another male to female jumper cable, connecting the male end to the 
 --- /task ---
 
 Your LED should now be on. If it is not, check your wiring. The first thing to check is that your LED is the right way round!
+
+NOTE: The example uses jumper cables whose colours reflect their use, e.g. black for ground. This is helpful in making your circuits clear and showing that you understand what each cable is for but any colour cable will work just the same. The electrical current doesn't care what colour the cable is!
