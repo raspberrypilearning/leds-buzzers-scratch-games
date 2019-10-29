@@ -48,7 +48,7 @@ The example shows the LEDs connected to GPIO pins 17, 23 and 25 but you could us
 
 --- hint ---
 
-`when flag clicked`{:class="block3events"}, carry on `forever`{:class="block3control"} turning `LED 17`{:class="block3extension"}, `LED 23`{:class="block3extension"} and `LED 25`{:class="block3extension"} `on and off`{:class="block3extension"}.
+`when flag clicked`{:class="block3events"}, carry on `forever`{:class="block3control"} turning `LED 17`{:class="block3extension"}, `LED 23`{:class="block3extension"} and `LED 25`{:class="block3extension"} `on and off`{:class="block3extensions"}.
 
 This challenge is very open, the order you light them, whether they all go together or on some random sequence, how you set the timing are all up to you.
 
