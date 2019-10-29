@@ -56,7 +56,7 @@ From the Raspberry Pi Simple Electronics pallette, add `turn LED 17 on`{:class="
 
 ```blocks3
 when flag clicked
-turn LED (17 v) [on v] ::extension
++ turn LED (17 v) [on v] ::extension
 ```
 
 Click the green flag and your LED should light up.
@@ -72,8 +72,8 @@ Add a `wait`{:class="block3control"} block followed by `turn LED 17 off`{:class=
 ```blocks3
 when flag clicked
 turn LED (17 v) [on v] ::extension
-wait (1) secs
-turn LED (17 v) [off v] ::extension
++ wait (1) secs
++ turn LED (17 v) [off v] ::extension
 ```
 
 Click the green flag and your LED should turn on and then turn off again after 1 second.
@@ -88,11 +88,11 @@ Add another `wait`{:class="block3control"} block after the `turn LED 17 off`{:cl
 
 ```blocks3
 when flag clicked
-repeat (10) times
++ repeat (10) times
     turn LED (17 v) [on v] ::extension
     wait (1) secs
     turn LED (17 v) [off v] ::extension
-    wait (1) secs
++   wait (1) secs
 end
 ```
 
@@ -100,8 +100,4 @@ Click the green flag and your LED should flash, turing on and off again ten time
 
 --- /task ---
 
---- task ---
-
-Play around with the 
-
---- /task ---
+Play around with the `wait`{:class="block3control"} times? Try having a different `wait`{:class="block3control"} time after turning on or off. Try replacing the `repeat`{:class="block3control"} loop with a `forever`{:class="block3control"} loop.
