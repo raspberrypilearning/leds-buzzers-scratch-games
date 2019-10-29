@@ -49,3 +49,14 @@ when flag clicked
 ```
 
 --- /task ---
+
+--- task ---
+
+From the Raspberry Pi Simple Electronics pallette, add `turn LED 17 on`{:class="block3operators"}
+
+```blocks3
+when flag clicked
+turn LED (17 v) [on v] ::extension
+```
+
+--- /task ---
