@@ -18,14 +18,34 @@ Now you are going to write code in Scratch to control the LED.
 
 Open up Scratch 3 from your Raspberry Pi menu.
 
---- no-print ---
-![Open Scratch 3](images/codeLED_openScratch3.gif)
---- /no-print ---
-
---- print-only ---
 ![Open Scratch 3](images/codeLED_openScratch3.png)
---- /print-only ---
 
 --- /task ---
 
+To control the LED using the GPIO pin you will need to add a Scratch extension.
 
+--- task ---
+
+Click on the **Add Extension** button on the bottom left corner.
+
+![Add Extension button](images/codeLED_addExtensionButton.png)
+
+Scroll down to the bottom to find three Raspberry Pi extensions.
+
+![Pi extensions](images/codeLED_PiExtensions.png)
+
+Choose the **Raspberry Pi Simple Electronics** extension. When you click this, a new palette of coding blocks becomes available.
+
+![Simple Electronics coding palette](images/codeLED_simpleElectronicsPalette.png)
+
+--- /task ---
+
+--- task ---
+
+Choose an **event** to start your code such as `when flag clicked`{:class="block3events"}
+
+```blocks3
+when flag clicked
+```
+
+--- /task ---
