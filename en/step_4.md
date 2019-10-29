@@ -40,31 +40,41 @@ Do the same to add a third LED, and even a fourth if you like.
 
 --- /task ---
 
+With the three LEDs wired up and ready to go it's time for you to write some code to get all the lights working in any way that you like.
+
+The example shows the LEDs connected to GPIO pins 17, 23 and 25 but you could use any pins that you like, just make sure your coding uses the same pins that you have used.
+
+![Light show challenge code solution](images/lightShow_lightShowCode_Solution.png)
+
 --- hints ---
 
 --- hint ---
 
-When the `program starts`{:class="crumblebasic"}, it should `wait`{:class="crumblecontrol"} a couple of seconds and then turn both motors `FORWARD`{:class="crumbleinputoutput"}, then `wait`{:class="crumblecontrol"} until the buggy has travelled about 30cm. Then, the motors should turn right until they have turned 180° (a half turn), then both motors should turn `FORWARD`{:class="crumbleinputoutput"} until the buggy is back in its starting position. Then, both motors should `STOP`{:class="crumbleinputoutput"}.
+`when flag clicked`{:class="block3events"}, carry on `forever`{:class="block3control"} turning `LED 17`{:class="block3extension"}, `LED 23`{:class="block3extension"} and `LED 25`{:class="block3extension"} `on and off`{:class="block3extension"}.
+
+This challenge is very open, the order you light them, whether they all go together or on some random sequence, how you set the timing are all up to you.
 
 --- /hint ---
 
 --- hint ---
 
-You will need to use the blocks below to create the 'there and back again' code.
+You will probably use the blocks below to create the LED light show code.
 
-Can you rearrange them and alter the wait times to make the code work?
+![Light show challenge code parsons problem](images/lightShow_lightShowCode__parsons.png)
 
-![There and back challenge code parsons problem](images/thereAndBack_thereAndBackCode__parsons.png)
+You might also want to use the `random number`{:class="block3operators"} block.
+
+![Light show challenge code parsons problem](images/lightShow_randomNumber.png)
 
 --- /hint ---
 
 --- hint ---
 
-The code below works for the example buggy. You might need to alter the wait times and speeds for your buggy.
+The code below are some possible examples but what you come up with is up to you. You might want to think about the result you want and try to make that heppen with code, or you could approach it from the other side, playing with the code and seeing what the results look like. 
 
-![There and back challenge code solution](images/thereAndBack_thereAndBackCode_Solution.png)
+Always try and understand why the result look the way it does. 
 
-Click the green **Play** button to see if it works.
+![Light show challenge code solution](images/lightShow_lightShowCode_Solution.png)
 
 --- /hint ---
 

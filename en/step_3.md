@@ -42,7 +42,7 @@ Choose the **Raspberry Pi Simple Electronics** extension. When you click this, a
 
 --- task ---
 
-Choose an **event** to start your code such as `when flag clicked`{:class="block3events"}
+Choose an **event** to start your code such as `when flag clicked`{:class="block3events"}.
 
 ```blocks3
 when flag clicked
