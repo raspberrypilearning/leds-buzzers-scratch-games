@@ -44,22 +44,6 @@ With the three LEDs wired up and ready to go it's time for you to write some cod
 
 The example shows the LEDs connected to GPIO pins 17, 23 and 25 but you could use any pins that you like, just make sure your coding uses the same pins that you have used.
 
-```blocks3
-when flag clicked
-+ forever
-    turn LED (17 v) [on v] ::extension
-    turn LED (23 v) [on v] ::extension
-    turn LED (25 v) [on v] ::extension
-    wait (1) secs
-    turn LED (17 v) [off v] ::extension
-    turn LED (23 v) [off v] ::extension
-    turn LED (25 v) [off v] ::extension
-+   wait (1) secs
-end
-```
-
-![Light show challenge code solution](images/lightShow_lightShowCode_Solution.png)
-
 --- hints ---
 
 --- hint ---
