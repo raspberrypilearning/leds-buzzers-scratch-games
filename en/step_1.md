@@ -34,7 +34,7 @@ title: What you will need
 
 - A Raspberry Pi 4
 - LEDs
-- 47 to 330 ohm resistors
+- 47Ω (Ohm) to 330Ω resistors
 - A buzzer
 - A breadboard
 - Male to Female jumper leads

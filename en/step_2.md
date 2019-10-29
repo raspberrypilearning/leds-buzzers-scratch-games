@@ -44,9 +44,29 @@ Note which is the longer, positive leg. In the example the longer-legged anode i
 
 --- task ---
 
-Connect your LED and resistor to the breadboard and then to Raspberry Pi as shown below.
+Insert one end of 330Ω resistor in the same line of connected holes as the longer-legged **anode** of the LED.
 
-![Pi, breadboard, LED and resistor](images/lightLED_ledDirect.png)
+Place the other end of the resistor into a convenient place somewhere else on the breadboard.
+
+![Resistor in breadboard](images/lightLED_ledAndResistor.png)
+
+--- /task ---
+
+--- task ---
+
+Take a male to female jumper cable (has a pin on one end and a socket hole on the other) and connect the pin into the breadboard so that it connects to the second resistor leg as shown below.
+
+Connect the female (socket) end to one of the Raspberry Pi's **3.3v** GPIO pins.
+
+![Resistor to Pi wire](images/lightLED_ledResistorAndWire1.png)
+
+--- /task ---
+
+--- task ---
+
+Lastly, add another male to female jumper cable, connecting the male end to the shorter-legged **cathode** and the female end to one fo the Raspberry Pi's **ground** (**GND**, **-** or **-ve**) pins
+
+![Pi, breadboard, LED and resistor](images/lightLED_ledResistorAndWires.png)
 
 --- /task ---
 
