@@ -9,6 +9,8 @@ steps:
   - title: Introduction
   - title: Lighting an LED
   - title: Coding an LED using an GPIO pin
+  - title: "Challenge: Light show!"
+    challenge: true
   - title: Making noise with buzzers
   - title: Coding sequences
   - title: Scratch, sound and lights
