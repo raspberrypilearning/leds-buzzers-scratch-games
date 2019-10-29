@@ -89,9 +89,10 @@ Add another `wait`{:class="block3control"} block after the `turn LED 17 off`{:cl
 ```blocks3
 when flag clicked
 repeat (10) times
-turn LED (17 v) [on v] ::extension
-wait (1) secs
-turn LED (17 v) [off v] ::extension
+    turn LED (17 v) [on v] ::extension
+    wait (1) secs
+    turn LED (17 v) [off v] ::extension
+    wait (1) secs
 ```
 
 Click the green flag and your LED should flash, turing on and off again ten times.
