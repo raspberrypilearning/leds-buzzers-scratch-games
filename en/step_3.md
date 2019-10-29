@@ -67,7 +67,7 @@ Now let's turn it on and off.
 
 --- task ---
 
-Add a `wait`{:class="block3control"} block followed by `turn LED 17 off`{:class="block3operators"}.
+Add a `wait`{:class="block3control"} block followed by `turn LED 17 off`{:class="block3extensions"}.
 
 ```blocks3
 when flag clicked
