@@ -66,10 +66,42 @@ forever
     set gpio (25 v) to output [high v] ::extension
     wait (pick random (0.05) to (0.25)) secs
     set gpio (25 v) to output [low v] ::extension
-    wait (pick random (0.7) to (2.5)) secs
+    wait (0.03) secs
+    set gpio (25 v) to output [high v] ::extension
+    wait (pick random (0.05) to (0.25)) secs
+    set gpio (25 v) to output [low v] ::extension
+    wait (pick random (0.7) to (1.5)) secs
 end
 ```
-NOTE: In this example the buzzer only stays on for a short time but stays off much longer.
+NOTE: In this example the buzzer has a double beep (turns off for just 0.03 seconds) but only stays on for a short time before staying off for much longer.
+
+--- /task ---
+
+Let's add a new GPIO control block.
+
+--- task ---
+
+The code below uses a new event block from the `Raspberry Pi GPIO` extension which says, `when gpio 25 is high`{:class="block3extensions"}.
+
+Any code below this block will **run** whenever `GPIO 25 is high]`{:class="block3extensions"}, i.e. whenever the buzzer is on.
+
+```blocks3
+when gpio (25 v) is [high v] ::extension
+turn LED (23 v) [on v] ::extension
+turn LED (17 v) [off v] ::extension
+```
+
+Add this code to your project.
+
+Can you see what it will do?
+
+--- /task ---
+
+The new piece of code forces `LED 23`{:class="block3extensions"} to be on and `LED 17`{:class="block3extensions"} to be off whenever the buzzer sounds. 
+
+--- task ---
+
+Have a play in Scratch and make up you own sequences. You can add more LEDs and buzzers if you like.
 
 --- /task ---
 
