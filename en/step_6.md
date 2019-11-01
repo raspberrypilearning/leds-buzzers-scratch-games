@@ -63,9 +63,9 @@ Now write the code for the buzzer, again starting with the `green flag`{:class="
 ```blocks3
 when flag clicked
 forever
-    turn LED (25 v) [on v] ::extension
+    set gpio (25 v) to output [high v] ::extension
     wait (pick random (0.05) to (0.25)) secs
-    turn LED (25 v) [off v] ::extension
+    set gpio (25 v) to output [low v] ::extension
     wait (pick random (0.7) to (2.5)) secs
 end
 ```
