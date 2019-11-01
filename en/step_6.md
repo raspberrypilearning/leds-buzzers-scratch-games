@@ -83,7 +83,7 @@ Let's add a new GPIO control block.
 
 The code below uses a new event block from the `Raspberry Pi GPIO` extension which says, `when gpio 25 is high`{:class="block3extensions"}.
 
-Any code below this block will **run** whenever `GPIO 25 is high]`{:class="block3extensions"}, i.e. whenever the buzzer is on.
+Any code below this block will **run** whenever `GPIO 25 is high`{:class="block3extensions"}, i.e. whenever the buzzer is on.
 
 ```blocks3
 when gpio (25 v) is [high v] ::extension
@@ -97,7 +97,7 @@ Can you see what it will do?
 
 --- /task ---
 
-The new piece of code forces `LED 23`{:class="block3extensions"} to be on and `LED 17`{:class="block3extensions"} to be off whenever the buzzer sounds. 
+The new piece of code forces `LED 23`{:class="block3extensions"} to be **on** and `LED 17`{:class="block3extensions"} to be **off** whenever the buzzer sounds. 
 
 --- task ---
 
