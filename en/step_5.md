@@ -28,7 +28,7 @@ Just as you turned your LED connected to GPIO 17 on by `turning LED 17 on`{:clas
 + output low = off
 
 --- task ---
-Now you can make a really annoying screeching noise by `looping`{:class="block3control"} `GPIO 17 high`{:class="block3extensions"},`wait`{:class="block3control"} `GPIO 17 low`{:class="block3extensions"} and another `wait`{:class="block3control"}.
+Now you can make a really annoying intermittent screeching noise by `looping`{:class="block3control"} `GPIO 17 high`{:class="block3extensions"},`wait`{:class="block3control"} `GPIO 17 low`{:class="block3extensions"} and another `wait`{:class="block3control"}.
 
 ```blocks3
 when flag clicked
@@ -44,9 +44,9 @@ wait (1) secs
 You can get creative too and play around with the timing, make screechy beats or even randomise the wait times.
 
 --- task ---
-Play around with the `wait`{:class="block3control"} times to find a noise sequence you like!
+Play around with the `wait`{:class="block3control"} times to find a **noise** sequence you like!
 
-Here was my favourite screechy beat:
+Here is my favourite screechy beat:
 
 ```blocks3
 when flag clicked
