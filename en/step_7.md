@@ -100,4 +100,22 @@ forever
 end
 ```
 
+Run your code again to check that the dinosaur always returns to normal size.
+
+--- /task ---
+
+Time to code the Frank sprite for LED 23.
+
+--- task ---
+
+Create a new sprite for Frank and add starter code like you did for the dinosaur. This time you know to add a line to make Frank start at normal size.
+
+![Frank sprite](images/frankSpriteIdentifier.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (0)
++ set size to (100) %
+```
+
 --- /task ---
