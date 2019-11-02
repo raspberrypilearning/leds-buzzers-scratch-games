@@ -115,7 +115,78 @@ Create a new sprite for Frank and add starter code like you did for the dinosaur
 ```blocks3
 when flag clicked
 go to x: (0) y: (0)
-+ set size to (100) %
+set size to (100) %
+```
+
+--- /task ---
+
+--- task ---
+
+Add code to make LED 23 turn on and off.
+
+![Frank sprite](images/frankSpriteIdentifier.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (0)
+set size to (100) %
++ forever
+    turn LED (23 v) [on v] ::extension
+    wait (pick random (0.3) to (1.2)) secs
+    turn LED (23 v) [off v] ::extension
+    wait (pick random (10.3) to (1.2)) secs
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Now add code to make Frank grow and shrink as the LED turns on and off.
+
+![Frank sprite](images/frankSpriteIdentifier.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (0)
+set size to (100) %
++ forever
+    turn LED (23 v) [on v] ::extension
++   change size by (30)
+    wait (pick random (0.3) to (1.2)) secs
+    turn LED (23 v) [off v] ::extension
++   set size to (100) %
+    wait (pick random (10.3) to (1.2)) secs
+end
+```
+
+--- /task ---
+
+--- task ---
+
+How about adding a new effect?
+
+Remember that whatever effect you add when the LED turns **on**, you ususally want to reverse when the LED turn **off** and add a starting state block so that the sprite starts off in the right place, the right colour, etc.
+
+Have a go at adding a **whirl** effect
+
+![Frank sprite](images/frankSpriteIdentifier.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (0)
+set size to (100) %
++ set [whirl] effect to (0)
++ forever
+    turn LED (23 v) [on v] ::extension
+    change size by (30)
++   change [whirl v] effect by (200)
+    wait (pick random (0.3) to (1.2)) secs
+    turn LED (23 v) [off v] ::extension
+    set size to (100) %
++   set [whirl] effect to (0)
+    wait (pick random (10.3) to (1.2)) secs
+end
 ```
 
 --- /task ---
