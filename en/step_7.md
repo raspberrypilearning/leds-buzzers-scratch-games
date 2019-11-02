@@ -62,7 +62,7 @@ when flag clicked
 go to x: (-120) y: (0)
 forever
     turn LED (17 v) [on v] ::extension
-    + change size by (30)
++   change size by (30)
     wait (pick random (1) to (2)) secs
     turn LED (17 v) [off v] ::extension
     wait (pick random (1) to (2)) secs
@@ -95,7 +95,7 @@ forever
     change size by (30)
     wait (pick random (1) to (2)) secs
     turn LED (17 v) [off v] ::extension
-  + set size to (100) %
++   set size to (100) %
     wait (pick random (1) to (2)) secs
 end
 ```
