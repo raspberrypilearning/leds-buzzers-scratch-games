@@ -297,3 +297,25 @@ turn LED (23 v) [off v] ::extension
 Run your code, stop the code and then press **SPACE** to check that it works.
 
 --- /task ---
+
+--- task ---
+
+Before we move on to the next section, have a go at adding more effects or changes.
+
+Play!
+
+```blocks3
+say (Hello!) for (0.5) seconds
+
+set [ghost v] effect to (100)
+
+change [color v] effect by (75)
+
+turn (45) degrees
+
+go to (random position v)
+```
+
+Can you make the background change if both LEDs and the buzzer are on at the same time?
+
+--- /task ---
