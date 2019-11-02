@@ -21,11 +21,83 @@ Create a new sprite. This example uses dinosaur 2 but you can pick something dif
 
 Code the **starting state** for the dinosaur 2 sprite. This **initialises** the sprite so that it starts in the right place, is the right size, the right colour, etc.
 
+We'll start with the `green flag`{:class="block3events"} event and a block telling the sprite where to be on the stage.
+
 ![Dinosaur 2 sprite](images/dinosaur2SpriteIdentifier.png)
 
 ```blocks3
 when flag clicked
 go to x: (-120) y: (0)
+```
+
+--- /task ---
+
+--- task ---
+
+Add code to make the LED turn on and turn off.
+
+![Dinosaur 2 sprite](images/dinosaur2SpriteIdentifier.png)
+
+```blocks3
+when flag clicked
+go to x: (-120) y: (0)
++ forever
+    turn LED (17 v) [on v] ::extension
+    wait (pick random (1) to (2)) secs
+    turn LED (17 v) [off v] ::extension
+    wait (pick random (1) to (2)) secs
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Next, add code to make the something happen to the dinosaur sprite at whenever the LED lights.
+
+![Dinosaur 2 sprite](images/dinosaur2SpriteIdentifier.png)
+
+```blocks3
+when flag clicked
+go to x: (-120) y: (0)
+forever
+    turn LED (17 v) [on v] ::extension
+    + change size by (30)
+    wait (pick random (1) to (2)) secs
+    turn LED (17 v) [off v] ::extension
+    wait (pick random (1) to (2)) secs
+end
+```
+Run your code and see what happens.
+
+--- /task ---
+
+Your dinosaur should grow a little each time the red LED lights up. 
+
+Unfortunately, the dinosaur just gets bigger and bigger until it dominates the screen!
+
+We need to add two bits of code to fix this:
++ add `set size to 100%`{:class="block3looks"} to the starting state at the beginning
++ add another `set size to 100%`{:class="block3looks"} block whenever the LED turns off
+
+--- task ---
+
+Add code to make the dinosaur start at normal size and go back to normal size when the LED goes out.
+
+![Dinosaur 2 sprite](images/dinosaur2SpriteIdentifier.png)
+
+```blocks3
+when flag clicked
+go to x: (-120) y: (0)
++ set size to (100) %
+forever
+    turn LED (17 v) [on v] ::extension
+    change size by (30)
+    wait (pick random (1) to (2)) secs
+    turn LED (17 v) [off v] ::extension
+    + set size to (100) %
+    wait (pick random (1) to (2)) secs
+end
 ```
 
 --- /task ---
