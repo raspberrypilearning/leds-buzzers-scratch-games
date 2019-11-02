@@ -199,7 +199,9 @@ It's good to regularly test what your code is doing and see that everything is d
 
 Reduce the **normal** size for both sprites, both in the starting state and when the LEDs turn off.
 
+```blocks3
 set size to (60) %
+```
 
 --- /task ---
 
