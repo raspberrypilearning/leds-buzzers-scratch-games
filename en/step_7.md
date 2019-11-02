@@ -203,6 +203,7 @@ Reduce the **normal** size for both sprites, both in the starting state and when
 set size to (60) %
 ```
 
+Run your code and see if the new sizes are an improvement. Do you want the sprites to be larger or smaller?
 --- /task ---
 
 --- task ---
