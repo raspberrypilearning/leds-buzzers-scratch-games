@@ -150,7 +150,7 @@ Now add code to make Frank grow and shrink as the LED turns on and off.
 when flag clicked
 go to x: (0) y: (0)
 set size to (100) %
-+ forever
+forever
     turn LED (23 v) [on v] ::extension
 +   change size by (30)
     wait (pick random (0.3) to (1.2)) secs
@@ -177,7 +177,7 @@ when flag clicked
 go to x: (0) y: (0)
 set size to (100) %
 + set [whirl] effect to (0)
-+ forever
+forever
     turn LED (23 v) [on v] ::extension
     change size by (30)
 +   change [whirl v] effect by (200)
@@ -218,7 +218,7 @@ when flag clicked
 go to x: (0) y: (0)
 set size to (100) %
 + set [whirl] effect to (0)
-+ forever
+forever
     turn LED (23 v) [on v] ::extension
     change size by (30)
 +   change [whirl v] effect by (200)
