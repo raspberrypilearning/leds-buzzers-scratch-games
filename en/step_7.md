@@ -95,7 +95,7 @@ forever
     change size by (30)
     wait (pick random (1) to (2)) secs
     turn LED (17 v) [off v] ::extension
-    + set size to (100) %
+  + set size to (100) %
     wait (pick random (1) to (2)) secs
 end
 ```
