@@ -189,4 +189,47 @@ set size to (100) %
 end
 ```
 
+Run your code to see Frank whirl and grow!
+
+--- /task ---
+
+It's good to regularly test what your code is doing and see that everything is doing what you want as you go along. I have noticed that in this example, the dinosaur and Frank are too large for the screen and get in each other's way.
+
+--- task ---
+
+Reduce the **normal** size for both sprites, both in the starting state and when the LEDs turn off.
+
+set size to (60) %
+
+--- /task ---
+
+--- task ---
+
+How about adding a new effect?
+
+Remember that whatever effect you add when the LED turns **on**, you ususally want to reverse when the LED turn **off** and add a starting state block so that the sprite starts off in the right place, the right colour, etc.
+
+Have a go at adding a **whirl** effect
+
+![Frank sprite](images/frankSpriteIdentifier.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (0)
+set size to (100) %
++ set [whirl] effect to (0)
++ forever
+    turn LED (23 v) [on v] ::extension
+    change size by (30)
++   change [whirl v] effect by (200)
+    wait (pick random (0.3) to (1.2)) secs
+    turn LED (23 v) [off v] ::extension
+    set size to (100) %
++   set [whirl] effect to (0)
+    wait (pick random (10.3) to (1.2)) secs
+end
+```
+
+Run your code to see Frank whirl and grow!
+
 --- /task ---
