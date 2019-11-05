@@ -61,7 +61,7 @@ title: What you will learn
 ---
 
 + To wire simple circuits using LEDs, buzzers and a Raspberry Pi
-+ To code electronic outputs in Scratch 3
++ To code electronic **outputs** in Scratch 3
 + To combine real-world electronic outputs with on-screen Scratch activity
 
 --- /collapse ---
