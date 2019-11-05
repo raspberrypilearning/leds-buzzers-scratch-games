@@ -1,7 +1,5 @@
-# Fritzing images or illustrations from RPF for continuity?
-
 --- no-print ---
-This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a [similar project for Scratch 1.4](https://projects.raspberrypi.org/en/projects/physical-computing-with-scratch14){:target="_blank"} which can be used with earlier Raspberry Pi models.
+This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a [project for Scratch 1.4](https://projects.raspberrypi.org/en/projects/physical-computing-with-scratch14){:target="_blank"} which includes some similar content and can be used with earlier Raspberry Pi models.
 --- /no-print ---
 
 --- print-only ---
@@ -16,14 +14,15 @@ You will combine Scratch and physical computing to work with each other to add p
 ### What you will make
 
 --- no-print ---
-<video width="640" height="360" controls>
-<source src="images/alarm.webm" type="video/webm">
-Your browser does not support WebM video, try FireFox or Chrome
-</video>
+
+![LED light show](images/lightShow_completedTask.gif)
+
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+
+![LED light show](images/lightShow_completedTask.png)
+
 --- /print-only ---
 
 --- collapse ---
