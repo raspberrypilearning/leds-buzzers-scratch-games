@@ -60,8 +60,9 @@ You can find the [completed project Scratch files here](http://rpf.io/p/en/leds-
 title: What you will learn
 ---
 
-+ Two or three learning objectives
-+ ...should go here
++ To wire simple circuits using LEDs, buzzers and a Raspberry Pi
++ To code electronic outputs in Scratch 3
++ To combine real-world electronic outputs with on-screen Scratch activity
 
 --- /collapse ---
 
