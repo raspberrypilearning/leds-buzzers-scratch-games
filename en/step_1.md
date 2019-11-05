@@ -3,7 +3,7 @@ This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is al
 --- /no-print ---
 
 --- print-only ---
-This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a similar project for Scratch 1.4 which can be used with earlier Raspberry Pi models.
+This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a project for Scratch 1.4, Physical Computing With Scratch, which includes some similar content and can be used with earlier Raspberry Pi models.
 --- /print-only ---
 
 ## Introduction
