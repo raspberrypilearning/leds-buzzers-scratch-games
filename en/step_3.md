@@ -52,7 +52,7 @@ when flag clicked
 
 --- task ---
 
-From the Raspberry Pi Simple Electronics pallette, add `turn LED 17 on`{:class="block3extension"}
+From the Raspberry Pi Simple Electronics pallette, add `turn LED 17 on`{:class="block3extensions"}
 
 ```blocks3
 when flag clicked
@@ -84,7 +84,7 @@ Now, it is just a small leap to make your LED flash. Can you already see how?
 
 --- task ---
 
-Add another `wait`{:class="block3control"} block after the `turn LED 17 off`{:class="block3operators"} and put the whole sequence in a `repeat`{:class="block3control"} loop.
+Add another `wait`{:class="block3control"} block after the `turn LED 17 off`{:class="block3extensions"} and put the whole sequence in a `repeat`{:class="block3control"} loop.
 
 ```blocks3
 when flag clicked
