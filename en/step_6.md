@@ -86,7 +86,7 @@ The code below uses a new event block from the `Raspberry Pi GPIO` extension whi
 Any code below this block will **run** whenever `GPIO 25 is high`{:class="block3extensions"}, i.e. whenever the buzzer is on.
 
 ```blocks3
-when gpio (25 v) is [high v] ::extension
+when gpio (25 v) is [high v] ::hat extension
 turn LED (23 v) [on v] ::extension
 turn LED (17 v) [off v] ::extension
 ```
