@@ -88,7 +88,7 @@ Add another `wait`{:class="block3control"} block after the `turn LED 17 off`{:cl
 
 ```blocks3
 when flag clicked
-+ repeat (10) times
++ repeat (10)
     turn LED (17 v) [on v] ::extension
     wait (1) secs
     turn LED (17 v) [off v] ::extension
