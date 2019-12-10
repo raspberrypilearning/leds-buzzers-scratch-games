@@ -311,7 +311,7 @@ set [ghost v] effect to (100)
 
 change [color v] effect by (75)
 
-turn (45) degrees
+turn cw (45) degrees
 
 go to (random position v)
 ```
