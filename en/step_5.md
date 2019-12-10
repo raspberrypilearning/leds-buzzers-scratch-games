@@ -51,7 +51,7 @@ Here is my favourite screechy beat:
 ```blocks3
 when flag clicked
 forever
-    repeat (4) times
+    repeat (4)
         set gpio (17 v) to output [high v] ::extension
         wait (0.05) secs
         set gpio (17 v) to output [low v] ::extension
