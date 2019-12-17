@@ -122,7 +122,6 @@ set gpio (25 v) to output [low v] ::extension
 turn LED (23 v) [off v] ::extension
 turn LED (17 v) [on v] ::extension
 wait (pick random (1.5) to (5.5)) seconds
-
 + forever
     turn LED (17 v) [off v] ::extension
     turn LED (23 v) [on v] ::extension
@@ -135,8 +134,6 @@ wait (pick random (1.5) to (5.5)) seconds
     wait (pick random (1.5) to (5.5)) seconds
 end
 ```
-
-Connect your new `forever`{:class="block3control"} loop code to your existing code that starts with the `when flag clicked`{:class="block3events"} event.
 
 Click the green flag to check that your LEDs and buzzers work as expected:
 
