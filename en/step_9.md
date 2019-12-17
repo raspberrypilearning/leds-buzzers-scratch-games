@@ -89,5 +89,50 @@ turn LED (23 v) [off v] ::extension
 turn LED (17 v) [on v] ::extension
 ```
 
+--- /task ---
+
+--- task ---
+
+Add a short `wait`{:class="block3control"}. Best to make this `pause`{:class="block3control"} before the game begins `random`{:class="block3operators"} so that nobody can be sure when the game will start!
+
+```blocks3
+wait (pick random (1.5) to (5.5)) seconds
+```
+
+--- /task ---
+
+The next section of code is the repeating loop:
++ yellow LED `on`{:class="block3extensions"}, red LED `off`{:class="block3extensions"}
++ random wait
++ buzzer `on`{:class="block3extensions"}
++ wait 0.1 seconds
++ yellow LED `off`{:class="block3extensions"}, red LED `on`{:class="block3extensions"},buzzer `off`{:class="block3extensions"}
++ random wait
+
+--- task ---
+
+Grab a `forever`{:class="block3control"} loop and add the blocks turning the LEDs and buzzer `on`{:class="block3extensions"} and `off`{:class="block3extensions"}.
+
+```blocks3
+when flag clicked
+set gpio (25 v) to output [low v] ::extension
+turn LED (23 v) [off v] ::extension
+turn LED (17 v) [on v] ::extension
+wait (pick random (1.5) to (5.5)) seconds
+
++ forever
+    turn LED (17 v) [off v] ::extension
+    turn LED (23 v) [on v] ::extension
+    wait (pick random (1.5) to (5.5)) seconds
+    set gpio (25 v) to output [high v] ::extension   
+    wait (0.1) seconds
+    turn LED (23 v) [off v] ::extension
+    turn LED (17 v) [on v] ::extension
+    set gpio (25 v) to output [low v] ::extension
+    wait (pick random (1.5) to (5.5)) seconds
+end
+```
+
+Connect your new `forever`{:class="block3control"} loop code to your existing code started with the `when flag clicked`{:class="block3events"} event.
 
 --- /task ---
