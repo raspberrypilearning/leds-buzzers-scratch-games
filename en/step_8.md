@@ -167,3 +167,35 @@ end
 --- /no-print ---
 
 --- /task ---
+
+If you want Frank, or other sprites, to move genuinely randomly, you could add some `random`{:class="block3operators"} blocks into the script.
+
+```blocks3
+move (pick random (5) to (10)) steps
+
+turn cw (pick random (7) to (13)) degrees   
+```
+
+--- task ---
+
+Repeat these simpe steps for your other sprites.
+
+Play around with the `move`{:class="block3motion"} and `turn`{:class="block3motion"} values so that each sprite moves differently.
+
+Click on the green flag to start the program, and try to click all three sprites quickly enough to light all three LEDs at the same time. You might need a friend to watch the lights for you.
+
+--- /task ---
+
+**NOTE:** for a bit of extra fun, try adding a `next costume`{:class="block3looks"} block into the motion `forever`{:class="block3control"} loop!
+
+--- no-print ---
+
+![Final program](images/interactive_final.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Final program](images/interactive_final.png)
+
+--- /print-only ---
