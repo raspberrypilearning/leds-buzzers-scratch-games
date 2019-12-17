@@ -28,32 +28,28 @@ This is the exact same setup you had earlier in **Coding sequences**.
 
 --- /task ---
 
+Next step is to get a **backdrop** and two **sprites**.
+
 --- task ---
 
-Click on the **Frank** sprite (the process is the same for all sprites so would work for any you choose).
+Click on the **choose a backdrop** button and choose a background that works for two characters to race across. 
 
-Now pull the code into two parts.
-+ the `event`{:class="block3events"} and starting state (initialisation)
-+ the cycle of changes (the `forever`{:class="block3control"} loop and everything inside it)
+![Choose a backdrop](images/scratchGame_chooseBackdropButton.png)
 
-![Frank sprite](images/frankSpriteIdentifier.png)
+This example uses **Basketball 1**.
 
-```blocks3
-when flag clicked
-go to x: (0) y: (0)
-set size to (100) %
-set [whirl] effect to (0)
+![Basketball 1 backdrop](images/scratchGame_basketballBackdrop.png)
 
-forever
-    turn LED (23 v) [on v] ::extension
-    change size by (30)
-    change [whirl v] effect by (200)
-    wait (pick random (0.3) to (1.2)) secs
-    turn LED (23 v) [off v] ::extension
-    set size to (100) %
-    set [whirl] effect to (0)
-    wait (pick random (0.3) to (1.2)) secs
-end
-```
+--- /task ---
+
+--- task ---
+
+Next, click on the **choose a sprite** button and choose two sprites to race across your stage. Having two characters that are similar widths will make things easier but using sprites you like is important too.
+
+![Choose a sprite](images/scratchGame_chooseSpriteButton.png)
+
+This example uses **Ben** and **Jordyn**. They are very similar which makes things easier.
+
+![Ben and Jordyn sprites](images/scratchGame_benAndJordynSprites.png)
 
 --- /task ---
