@@ -99,8 +99,24 @@ Try and click on all three sprites so they are all going through their changes a
 
 You've got to be quick but it's a bit too easy when the sprites are sitting still.
 
-Let's add more code 
+Let's add more code to get the sprites moving around to makes things a little trickier!
 
-** extend the previous section by taking the code out of the forever look and  using "when this sprite clicked" in tis place**
+--- task ---
 
-** it should be possible to then add movement code so that the sprites move around and you have to try and click all three while they are moving around the stage before the effect of them wears off **
+Starting with the **Frank** sprite again, you're going to add a movement section to the code.
+
+You want Frank to keep on moving so start with a `forever`{:class="block3control"} loop block.
+
+Inside the `forever`{:class="block3control"} loop, place a `move 10 steps`{:class="block3motion"} block and a `turn clockwise 15 degrees`{:class="block3motion"} block
+
+![Frank sprite](images/frankSpriteIdentifier.png)
+
+```blocks3
+forever
+    move (10) steps
+    turn cw (15) degrees
+end
+```
+
+--- /task ---
+
