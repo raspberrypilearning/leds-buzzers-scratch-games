@@ -56,13 +56,10 @@ This example uses **Ben** and **Jordyn**. They are very similar which makes thin
 
 ### The game structure
 
-To make your player move, you simply have to press that sprite's **move** key, **a** for Ben and **l** for Jordyn. The letters at opposite ends of the keyboard.
-
-The red LED indicates that you are not allowed to move. If a player has their **move** button pressed when the red light is lit, their sprite will jump backwards.
-
-The yellow LED indicates that you **are** allowed to move. Pressing a player's **move** light when the yellow LED is lit will make their sprite move slowly forwards.
-
-The buzzer will sound as a warning just before the yellow turns off and the red LED turns on. As soon as a player hears the buzzer they should stop pressing their **move** button.
++ To make your player move, you simply have to press that sprite's **move** key, **a** for Ben and **l** for Jordyn. The letters at opposite ends of the keyboard.
++ The red LED indicates that you are not allowed to move. If a player has their **move** button pressed when the red light is lit, their sprite will jump backwards.
++ The yellow LED indicates that you **are** allowed to move. Pressing a player's **move** light when the yellow LED is lit will make their sprite move slowly forwards.
++ The buzzer will sound as a warning just before the yellow turns off and the red LED turns on. As soon as a player hears the buzzer they should stop pressing their **move** button.
 
 You will write the code for when the LEDs and buzzer turn on and off in the stage's workspace.
 
@@ -133,6 +130,16 @@ wait (pick random (1.5) to (5.5)) seconds
 end
 ```
 
-Connect your new `forever`{:class="block3control"} loop code to your existing code started with the `when flag clicked`{:class="block3events"} event.
+Connect your new `forever`{:class="block3control"} loop code to your existing code that starts with the `when flag clicked`{:class="block3events"} event.
+
+Click the green flag to check that your LEDs and buzzers work as expected:
+
++ red LED **on** - yellow LED **off**
++ yellow LED **on** - red LED **off**
++ buzzer sounds for an instant
++ back to red LED **on** - yellow LED **off**
++ and so on...
+
+The red and yellow LEDs should never be on at the same time.
 
 --- /task ---
