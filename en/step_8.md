@@ -122,7 +122,7 @@ end
 
 --- task ---
 
-Add another `move 10 steps`{:class="block3motion"} block and a `turn counter-clockwise 15 degrees`{:class="block3motion"} block to make Frank turn the other way this time.
+Add another `move 10 steps`{:class="block3motion"} block and a `turn counter-clockwise 15 degrees`{:class="block3motion"} block to make Frank turn the otheralalla way this time.
 
 Finally, to stop Frank getting stuck at the sides of the screen, add an `if on edge, bounce`{:class="block3motion"} block.
 
