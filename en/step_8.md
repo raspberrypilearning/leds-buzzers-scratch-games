@@ -2,9 +2,9 @@
 
 The code you have just written for the dinosaur, Frank and the ghost (other sprites available) consists of three main elements
 
-+ an **event** - the green flag
-+ **initialisation** - setting the startting state, e.g. where, what size, starting effect values, etc.
-+ cycle of changes - LED control, effect changes and wait times
++ an **event**: the green flag
++ **initialisation**: setting the startting state, e.g. where, what size, starting effect values, etc.
++ **forever loop**: cycle of changes - LED control, effect changes and wait times
 
 Once the cycle of changes start, that's it. The changes keep on going `forever`{:class="block3control"} automatically.
 
@@ -107,7 +107,7 @@ Starting with the **Frank** sprite again, you're going to add a movement section
 
 You want Frank to keep on moving so start with a `forever`{:class="block3control"} loop block.
 
-Inside the `forever`{:class="block3control"} loop, place a `move 10 steps`{:class="block3motion"} block and a `turn clockwise 15 degrees`{:class="block3motion"} block
+Inside the `forever`{:class="block3control"} loop, place a `move 10 steps`{:class="block3motion"} block and a `turn clockwise 15 degrees`{:class="block3motion"} block.
 
 ![Frank sprite](images/frankSpriteIdentifier.png)
 
@@ -120,3 +120,22 @@ end
 
 --- /task ---
 
+--- task ---
+
+Add another `move 10 steps`{:class="block3motion"} block and a `turn counter-clockwise 15 degrees`{:class="block3motion"} block to make Frank turn the other way this time.
+
+Finally, to stop Frank getting stuck at the sides of the screen, add an `if on edge, bounce`{:class="block3motion"} block.
+
+![Frank sprite](images/frankSpriteIdentifier.png)
+
+```blocks3
+forever
+    move (10) steps
+    turn cw (15) degrees
+    move (10) steps
+    turn ccw (15) degrees
+    if on edge, bounce
+end
+```
+
+--- /task ---
