@@ -138,4 +138,32 @@ forever
 end
 ```
 
+Click on the green flag to see how Frank moves.
+
+--- /task ---
+
+Well, he is moving but it's a little predictable.
+
+--- task ---
+
+making the `turn`{:class="block3motion"} values different from each other makes a big difference to how your sprites move but have a play around with each of the values until you find a motion that you like.
+
+![Frank sprite](images/frankSpriteIdentifier.png)
+
+```blocks3
+forever
+    move (6) steps
+    turn cw (6) degrees
+    move (10) steps
+    turn ccw (7) degrees
+    if on edge, bounce
+end
+```
+
+--- no-print ---
+
+![Frank moves](images/interactive_frankMoves.gif)
+
+--- /no-print ---
+
 --- /task ---
