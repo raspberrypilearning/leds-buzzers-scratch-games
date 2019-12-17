@@ -79,6 +79,8 @@ Start wth the `when flag clicked`{:class="block3events"} and then add blocks to 
 + yellow LED = LED 23
 + buzzer = GPIO 25
 
+![Basketball backdrop](images/basketballBackdropIdentifier.png)
+
 ```blocks3
 when flag clicked
 set gpio (25 v) to output [low v] ::extension
@@ -91,6 +93,8 @@ turn LED (17 v) [on v] ::extension
 --- task ---
 
 Add a short `wait`{:class="block3control"}. Best to make this `pause`{:class="block3control"} before the game begins `random`{:class="block3operators"} so that nobody can be sure when the game will start!
+
+![Basketball backdrop](images/basketballBackdropIdentifier.png)
 
 ```blocks3
 wait (pick random (1.5) to (5.5)) seconds
@@ -109,6 +113,8 @@ The next section of code is the repeating loop:
 --- task ---
 
 Grab a `forever`{:class="block3control"} loop and add the blocks turning the LEDs and buzzer `on`{:class="block3extensions"} and `off`{:class="block3extensions"}.
+
+![Basketball backdrop](images/basketballBackdropIdentifier.png)
 
 ```blocks3
 when flag clicked
