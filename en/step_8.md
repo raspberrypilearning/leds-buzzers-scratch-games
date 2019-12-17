@@ -1,4 +1,105 @@
-## Scratch, sound and lights
+## Scratch, sound and lights interactive
+
+The code you have just written for the dinosaur, Frank and the ghost (other sprites available) consists of three main elements
+
++ an **event** - the green flag
++ **initialisation** - setting the startting state, e.g. where, what size, starting effect values, etc.
++ cycle of changes - LED control, effect changes and wait times
+
+Once the cycle of changes start, that's it. The changes keep on going `forever`{:class="block3control"} automatically.
+
+Now you are going to edit your code to make it more interactive. Instead of changes taking place in a set cycle, the changes will only take place when you click on the sprite.
+
+--- task ---
+
+Click on the **Frank** sprite (the process is the same for all sprites so would work for any you choose).
+
+Now pull the code into two parts.
++ the `event`{:class="block3events"} and starting state (initialisation)
++ the cycle of changes (the `forever`{:class="block3control"} loop and everything inside it)
+
+![Frank sprite](images/frankSpriteIdentifier.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (0)
+set size to (100) %
+set [whirl] effect to (0)
+
+forever
+    turn LED (23 v) [on v] ::extension
+    change size by (30)
+    change [whirl v] effect by (200)
+    wait (pick random (0.3) to (1.2)) secs
+    turn LED (23 v) [off v] ::extension
+    set size to (100) %
+    set [whirl] effect to (0)
+    wait (pick random (0.3) to (1.2)) secs
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Next, pull the changes code out of the `forever`{:class="block3control"} loop and throw the `forever`{:class="block3control"} block away.
+
+![Frank sprite](images/frankSpriteIdentifier.png)
+
+```blocks3
+turn LED (23 v) [on v] ::extension
+change size by (30)
+change [whirl v] effect by (200)
+wait (pick random (0.3) to (1.2)) secs
+turn LED (23 v) [off v] ::extension
+set size to (100) %
+set [whirl] effect to (0)
+wait (pick random (0.3) to (1.2)) secs
+```
+
+--- /task ---
+
+--- task ---
+
+Now you just need to give the changes a new `event`{:class="block3events"} to set them in motion.
+
+Grab a `when this sprite clicked block`{:class="block3events"} from the `event`{:class="block3events"} palette, and place it at the start of the changes script.
+
+![Frank sprite](images/frankSpriteIdentifier.png)
+
+```blocks3
+when this sprite clicked
+turn LED (23 v) [on v] ::extension
+change size by (30)
+change [whirl v] effect by (200)
+wait (pick random (0.3) to (1.2)) secs
+turn LED (23 v) [off v] ::extension
+set size to (100) %
+set [whirl] effect to (0)
+wait (pick random (0.3) to (1.2)) secs
+```
+
+Click on the Frank sprite to see the changes happen. 
+
+Of course the changes only happen in one cycle now because we are not using the `forever`{:class="block3control"} loop, but they will happen every time you click on Frank.
+
+--- /task ---
+
+--- task ---
+
+Repeat these simpe steps for your other sprites.
+
+Click on each one to see them change.
+
+--- /task ---
+
+How about turning this more interacive program into a fun little challenge?
+
+Try and click on all three sprites so they are all going through their changes and back again at the same time.
+
+You've got to be quick but it's a bit too easy when the sprites are sitting still.
+
+Let's add more code 
 
 ** extend the previous section by taking the code out of the forever look and  using "when this sprite clicked" in tis place**
 
