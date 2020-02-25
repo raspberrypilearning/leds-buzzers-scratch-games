@@ -3,9 +3,11 @@
 Up till now, all your Scratch coding has been to make the LEDs and buzzer turn on and off. Now you're going to mix things up a little and code have your LEDs and buzzer interacting with sprites on your Scratch stage.
 
 First, you'll code a simple straight link between each component (LED or buzzer) and a sprite, e.g.
-+ **LED 17** linked with the **dinosaur 2** sprite
-+ **LED 23** linked with the **Frank** sprite
-+ **LED 25** linked with the **ghost** sprite
++ **GPIO pin 17** linked with the **dinosaur 2** sprite
++ **GPIO pin 23** linked with the **Frank** sprite
++ **GPIO pin 25** linked with the **ghost** sprite
+
+The example is using the same wiring setup as before with two LEDs and a buzzer but you can switch things around if you like.
 
 Let's start with dinosaur 2.
 
