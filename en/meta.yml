@@ -2,9 +2,9 @@ title: LEDs, buzzers and Scratch games
 hero_image: images/banner.png
 description: Use physical computing outputs with Scratch 3 and a Raspberry Pi 4
 version: 4
-listed: false
-copyedit: false
-last_tested: "2019-10-22"
+listed: true
+copyedit: true
+last_tested: "2020-02-25"
 steps:
   - title: Introduction
   - title: Lighting an LED
