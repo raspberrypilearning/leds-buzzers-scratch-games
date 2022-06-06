@@ -8,15 +8,17 @@ copyedit: true
 last_tested: '2020-02-25'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Lighting an LED
 - title: Coding an LED using an GPIO pin
+  completion:
+  - engaged
 - title: 'Challenge: Light show!'
   challenge: true
 - title: Making noise with buzzers
 - title: Coding sequences
 - title: Scratch, sound and lights
 - title: Scratch, sound and lights interactive
-  completion: internal
 - title: Scratch games with LEDs and buzzers
+  completion:
+  - internal
 - title: What next?
